@@ -21,12 +21,12 @@ This project explores large-scale e-commerce behavioral data using Apache Spark 
 
 ## Project Structure
 
-| File Name             | Description                                        |
-|-----------------------|----------------------------------------------------|
-| `spark_only.py`       | Spark-based data processing and visual analysis    |
-| `hive_only.py`        | HiveQL queries and summary statistics              |
-| `ML_RF_Final.py`      | Baseline Random Forest model                       |
-| `ML_RF_Improved.py`   | Improved ML model with feature engineering         |
+| File Name             | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| `spark_only.py`       | Spark-based data processing and visual analysis                             |
+| `hive_only.py`        | HiveQL queries and summary statistics                                       |
+| `ML_RF_Final.py`      | Baseline Random Forest with basic feature engineering                       |
+| `ML_RF_Improved.py`   | Random Forest with advanced feature engineering and hyperparameter tuning   |
 
 ---
 

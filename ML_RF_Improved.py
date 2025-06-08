@@ -55,6 +55,6 @@ for metric in ["accuracy", "f1", "weightedPrecision", "weightedRecall"]:
     eval = MulticlassClassificationEvaluator(labelCol="label", predictionCol="prediction", metricName=metric)
     print(f"{metric.capitalize()}: {eval.evaluate(predictions)}")
 
-# Optional: Print feature importances
+# Print feature importances
 rf_model = model.stages[-1]
 print("Feature Importances:", rf_model.featureImportances)

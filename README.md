@@ -29,7 +29,7 @@ This project analyzes a multi-category e-commerce dataset (~5GB) using Apache Sp
 ---
 
 
-## 🤖 Machine Learning
+## Machine Learning
 
 We used classification to predict whether a user action will lead to a purchase.
 
